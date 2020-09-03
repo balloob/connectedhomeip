@@ -69,7 +69,7 @@ template("gdbus_library") {
     if (defined(invoker.c_namespace)) {
       args += [
         "--c-namespace",
-        invoker.c_namespace
+        invoker.c_namespace,
       ]
     }
 
